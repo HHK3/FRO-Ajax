@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src = "ajax.js"></script>
+    <link rel = "stylesheet" type="text/css" href = "style.css">
+    <meta charset = "utf-8">
+    <title>Rekenspelletje</title>
+</head>
+<body>
+<audio autoplay loop id="achtergrondmuziek">
+    <source src="achtergrond.mp3">
+</audio>
+<div id = "box">
+    <h1>Joël Lakhai - AJAX Suggestions - Male Game Characters</h1>
+    <p><b>Typ een naam in om te bekijken of het in het lijstje staat van suggesties</b></p>
+    <form>
+        <b>Naam:</b> <input type="text" onkeyup="showHint(this.value)">
+    </form>
+    <p><b>Suggesties:</b> <span id="txtHint"></span></p>
+</div>
+</body>
+</html>
