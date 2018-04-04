@@ -14,4 +14,3 @@ function showHint(str) {
     }
 }
 var muziek = document.getElementById('achtergrondmuziek');
-muziek.volume = 0.6;
